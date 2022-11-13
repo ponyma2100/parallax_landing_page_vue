@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.li {
+  @apply hover:text-white hover:border-b hover:border-accent;
+}
+
+.box {
+  @apply p-6 w-96 h-60 border border-white rounded-3xl hover:border hover:border-secondary-200 hover:bg-secondary-400 hover:shadow-lg shadow-indigo-500/50;
+}
